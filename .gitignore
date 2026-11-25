@@ -1,0 +1,47 @@
+# Python environments, bytecode, and test/tool caches
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment files; retain templates
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Node and Next.js build output
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+
+# Local databases and uploaded files
+storage/*.db
+storage/*.sqlite
+storage/*.sqlite3
+storage/uploads/*
+
+# Temporary files and OS/editor artifacts
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+~$*
+
+# Large local installer
+/tensorflow_cpu-*.whl
+
+# Research handover and training/evaluation assets are not needed to deploy
+/Crop_Health_AI/
+
+# Intentionally keep the production model tracked
+!ml_assets/model/mobilenetv2_stage2_best.keras

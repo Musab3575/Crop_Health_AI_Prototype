@@ -1,0 +1,9 @@
+tensorflow-cpu==2.20.0
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34
+sqlalchemy>=2.0
+pillow>=11
+python-multipart>=0.0.20
+pydantic-settings>=2.7
+httpx>=0.28
+pytest>=8
